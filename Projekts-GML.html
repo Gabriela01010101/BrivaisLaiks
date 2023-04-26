@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html>
+<html>
+<!---Ieliek linkus, lai varētu būt konkrēts fonts butiem, un nebūt katram paragrāfam jāmeklē fons.Kā arī savieno ar css failu, lai lapai varētu būt dizains-->
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0" />
+    <title> Brīvais laiks</title>
+    <link rel="stylesheet" href="styleGabsis (1).css" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" />
+</head>
+<!---Pogas un menu. Pogām ir href lai zinātu uz kurieni iet,un class=... ir lai varētu savienot ar css failu un izdekorēt paragrāfu, pogu utt.-->
+<body>
+    <section class="header">
+        <nav>
+            <a href="Latvijas skaistums.html"><img src="GrupasBilde.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" oneclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="#Sākums">Sākums</a></li>
+                    <li><a href="Intervija.html">Intervija</a></li>
+                    <li><a href="aptauja.html">Aptauja</a></li>
+                    <li><a href="#viedoklis">Viedokļi</a></li>
+                    <li><a href="https://www.instagram.com/rflparlaments/">Sociālie tīkli</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" oneclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1> Brīvais laiks</h1>
+            <p>Cilvēkiem ir mazs brīvā laika, bet šeit var apkopot<br> kā citi un tu pavadi savu brīvo laiku.</p>
+            <a href="Spēle.html" class="hero-btn">Izpildi testu, un pārbaudi, kā tu vislabāk pavadītu savu bīvo laiku.</a>
+        </div>
+
+    </section>
+
+    <!----- Sākums, id=... ir lai zinātu kā kura vieta sauc un tad var savienot ar pogām.----->
+
+    <section class="course" id="Sākums">
+        <h1>Ko šeit atradīsiet?</h1>
+        <p> Šajā mājaslapa pastāstīsim, mūsdienu cilvēku brīvā laika pavadīšanu, te ir intervijas ar ekpertiem par pasākumu organizēšnu, aptaujas rezultāti par pusudžu pasākumu apmeklēšanu, autoru viedokļi par brīvā laika pavadīšanu un spēle, kur tu vari uzzināt kā tu pavadi savu brīvo laiku.</p>
+    <section id="viedoklis">
+        <div class="row">
+            <div class="course-col">
+                <h3>Autoru viedokļi</h3>
+                <p>
+                    <h4>Līva</h4>
+                    No pasākumiem mēs gūstam neaizmirstamas atmiņas. Katrs jaunietis vēlās apmeklēt mūzikas koncertus, sportu sacensības un citus pasākumus, lai izklaidētos, gūtu pieredzi un atmiņas. Es, tāpat kā mani vienaudži, apmeklēju daudz un dažādus pasākumus. Ne visi ir kvalitatīvi un tādi kurus es vēlētos apmeklēt vēlreiz, kā, piemēram, Aizkraukles jauniešu centra rīkotā pasēdēšana un kēksiņu cepšana, bet katrs no tiem man kaut ko iemāca un paplašina manas zināšanas. Manuprāt, vajadzētu vairāk pasākumus, kurus jaunieši var apmeklēt, it īpaši saistībā ar vidusskolas beigšanu. Tie būtu ļoti noderīgi visiem, arī tiem jauniešiem, kuri nav izmisumā par vidusskolas beigšanu.<br />
+                    <br />
+                    <h4>Marta</h4>
+                    Manuprāt, katrs cilvēks ir atbildīgs par to, kā pavada savu brīvo laiku. Tā kvalitatīva pavadīšana, darot to, kas sagādā prieku, sniedz ne tikai iespēju iegūt jaunas prasmes, bet arī attīstīt sevi. Galvenais uzdevums ir iemācīties to pilnvērtīgi izmantot. Jauniešiem brīvais laiks ir ļoti svarīgs viņu fiziskajai un garīgajai attīstībai. Šis ir īstais laiks, lai  saprastu, kas viņi ir, ko mīl darīt, kas viņiem patīk. Pasākumi un pulciņi var būt lieliska iespēja pusaudžiem satikt jaunus cilvēkus, iegūt jaunas prasmes un sākt padziļinātāk interesēties par dažādām tēmām. Sporta aktivitātes ir labas ķermenim, kā arī palīdz sociālajo iemaņu, sadarbības un komandas darbam nepieciešamo prasmju attīstībā, tās veido disciplīnu un izturību. Mākslas pulciņi ne tikai iemāca glezniecības un mākslas pamatus, bet arī palīdz attīstīt domāšanu un radošumu. Ikvienā  pulciņā var iegūt iemaņas, kas noderēs nākotnē. Mūsdienās ir pieejami ļoti daudz pulciņi, tas ļauj katram atrast to, kas interesē visvairāk un sagādā prieku.<br />
+                    <br />
+                    <h4>Gabriela</h4>
+                    Brīvais laiks ir svarīgs cilvēku dzīvē, jo tas palīdz gan fiziskajai, gan garīgajai veselībai. Lai tas būtu kvalitatīvi pavadīts, jāmāk to sakombinēt, tā, lai tajā iekļautos ne tikai atpūta, bet arī pienākumi kā izmācīties, sakārot savu dzīves vietu un parūpēties par tiem, kas man ir svarīgi. Daudzi jaunieši, kā arī es , savos brīvajos brīžos arī apmeklē pasākumus un pulciņus, kurus ir svarīgi apmeklēt, jo, apmeklējot tos, socializējos ar vienaudžiem un paplašinu savu zināšanu loku un paplašina savu paziņu loku, draudzējoties un iepazīstoties ar citiem vienaudžiem. Garākos brīvajos laika posmos, kā vasaras brīvlaikā, labs veids kā aizvietot savu laiku ir pieteikties vasaras darbam. Vasaras darbi dod pozitīvu ietekmi pusaudžu dzīvē, jo tajos iemācas jaunas darba vietas iemaņas, veido pieredzi darba vietā, kas var palīdzēt nākotnē atrast nopietnāku darba vietu.
+
+<p>
+            </div>
+        </div>
+        <div class="w3-row-padding w3-text-white w3-large">
+            <div class="w3-half w3-margin-bottom">
+                <div class="w3-display-container">
+                    <img src="gabriela.jpeg" alt="Gabriela" style="width:100%">
+                    <span class="w3-display-bottomleft w3-padding">Gabriela Putniņa</span>
+                </div>
+            </div>
+            <div class="w3-half">
+                <div class="w3-row-padding" style="margin:0 -16px">
+                    <div class="w3-half w3-margin-bottom">
+                        <div class="w3-display-container">
+                            <img src="marta.jpeg" alt="Marta Liepiņa" style="width:100%">
+                            <span class="w3-display-bottomleft w3-padding">Marta Liepiņa</span>
+                        </div>
+                    </div>
+                    <div class="w3-half w3-margin-bottom">
+                        <div class="w3-display-container">
+                            <img src="liva.jpeg" alt="liva" style="width:110%">
+                            <span class="w3-display-bottomleft w3-padding">Līva Belicka</span>
+                        </div>
+                    </div>
+                </div>
+       
+                        </div>
+                    </div>
+                  
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+   
+
+    <!-- Socialie -->
+    <footer class="w3-container w3-center w3-opacity w3-margin-bottom">
+        <h5>Paldies Par uzmanību! Autori: Gabriela Putniņa, Marta Liepiņa, Līva Belicka </h5>
+
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px"
+        }
+
+    </script>
+
+
+
+
+</body>
+</html>
